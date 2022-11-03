@@ -11,7 +11,6 @@ for(let i=0; i<toggles.length; i++){
             buttontxt[i].style.color = '#1d1e35'
             buttontxt[i].style.fontWeight = '900'
             icons[i].style.transform = 'rotate(180deg)'
-            border.style.border = 'none'
             contentDiv[i].style.position = 'relative'
             contentDiv[i].style.top = '-15px'
         }
@@ -20,17 +19,15 @@ for(let i=0; i<toggles.length; i++){
             icons[i].style.transform = 'rotate(0deg)'
             buttontxt[i].style.color = '#787887'
             buttontxt[i].style.fontWeight = '300'
-            border.style.border = ''
         }
 
         for(let j=0; j<contentDiv.length; j++){
             if(j!==i){
                 contentDiv[j].style.height = "0px";
                 contentDiv[j].style.height = "0px";
-            icons[j].style.transform = 'rotate(0deg)'
-            buttontxt[j].style.color = '#787887'
-            buttontxt[j].style.fontWeight = '300'
-            border.style.border = ''
+                icons[j].style.transform = 'rotate(0deg)'
+                buttontxt[j].style.color = '#787887'
+                buttontxt[j].style.fontWeight = '300'
             }
         }
     });
