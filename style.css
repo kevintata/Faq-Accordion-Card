@@ -226,7 +226,7 @@ hr{
         height: 300px;
     }
 
-    .article{
+    article{
         position: relative;
         left: 20px;
         display: flex;
