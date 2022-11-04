@@ -30,18 +30,23 @@ body{
     margin: 20vh auto;
 }
 
+#art{
+    overflow: hidden;
+}
+
 #box{
     position: relative;
-    top: 100px;
-    left: -95px;
-    z-index: 1;
+    top: 195px;
+    left: -510px;
 }
 
 #woman{
     position: relative;
     top: 60px;
     left: -80px;
-    height: 100px;
+    height: 360px;
+    width: 480px;
+    overflow: hidden;
 }
 
 #container{
